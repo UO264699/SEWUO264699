@@ -30,21 +30,21 @@ cargarDatos(){
          var moneda = bocadillo.find('precio').attr('moneda');
          var descripcion = bocadillo.find('descripcion').text();
 
-         $('#bocadillo' + cont).append("<img class=imgb src="+ srcImagen + " alt="+altImagen + "/>"+ "<p>");
-         $('#bocadillo' + cont).append("<h2 id=nombreBocadillo" +cont + ">" + nombreBocadillo + "<h2>");
+         $('#bocadillo' + cont).append("<img class=imgb src="+ srcImagen.text() + " alt="+altImagen.text() + "/>"+ "<p>");
+         $('#bocadillo' + cont).append("<h2 id=nombreBocadillo" +cont + ">" + nombreBocadillo + "</h2>");
 
          $('#bocadillo' + cont).append("<div class=descripcion>" + descripcion + "</div>");
 
-         $('#bocadillo' + cont).append("<h3> Ingredientes: <h3>");
+         $('#bocadillo' + cont).append("<h3> Ingredientes: </h3>");
         
          $('#bocadillo' + cont).append("<div id = container></div>");
 
-        // $('#container').append("<div id = ingredientes> Ingredientes: </div>");
+         $('#bocadillo' + cont).append("<ul id=ingredientes> </ul>");
          $(this).find('ingrediente').each(function(){
               
            var ingrediente = $(this);
            var nombreIngrediente = ingrediente.attr('nombre');
-           $('#bocadillo' + cont).append("<ul id=ingredientes> </ul>");
+          
            $('#ingredientes').append("<li>" + nombreIngrediente + "</li>");
          })
 
