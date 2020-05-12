@@ -31,13 +31,12 @@ cargarDatos(){
          var descripcion = bocadillo.find('descripcion').text();
 
          $('#bocadillo' + cont).append("<img class=imgb src="+ srcImagen + " alt="+altImagen + "/>"+ "<p>");
-         $('#bocadillo' + cont).prepend("<h2 id=nombreBocadillo" +cont + ">" + nombreBocadillo + "<h2>");
+         $('#bocadillo' + cont).append("<h2 id=nombreBocadillo" +cont + ">" + nombreBocadillo + "</h2>");
 
          $('#bocadillo' + cont).append("<div class=descripcion>" + descripcion + "</div>");
 
-         $('#bocadillo' + cont).prepend("<h3> Ingredientes: <h3>");
+         $('#bocadillo' + cont).append("<h3> Ingredientes: </h3>");
         
-         $('#bocadillo' + cont).append("<div id = container></div>");
 
          $('#bocadillo' + cont).append("<ul id=ingredientes> </ul>");
          $(this).find('ingrediente').each(function(){
