@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bocadillos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="5" maxOccurs="unbounded" ref="bocadillo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bocadillo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="imagen" />
+        <xs:element ref="precio" />
+        <xs:element minOccurs="3" maxOccurs="unbounded" ref="ingrediente" />
+        <xs:element ref="descripcion" />
+        <xs:element ref="nutricion" />
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:ID" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ingrediente">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="nombre" type="xs:ID" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nutricion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="porcion" />
+        <xs:element ref="calorias" />
+        <xs:element ref="colesterol" />
+        <xs:element ref="grasaTotal" />
+        <xs:element ref="carbohidratos" />
+        <xs:element ref="azucares" />
+        <xs:element ref="proteinas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="imagen">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="src" type="xs:string" use="required" />
+          <xs:attribute name="alt" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="descripcion" type="xs:string" />
+  <xs:element name="precio">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="moneda" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="porcion">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidad" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="calorias">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidad" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="colesterol">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidad" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="grasaTotal">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidad" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="carbohidratos">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidad" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="azucares">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidad" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="proteinas">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidad" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

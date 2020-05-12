@@ -1,0 +1,26 @@
+<!ELEMENT bocadillos (bocadillo+)>
+<!ELEMENT bocadillo (imagen,precio,ingrediente*,descripcion,nutricion)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT nutricion (porcion,calorias,colesterol,grasaTotal,carbohidratos,azucares,proteinas)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT porcion (#PCDATA)>
+<!ELEMENT calorias (#PCDATA)>
+<!ELEMENT colesterol (#PCDATA)>
+<!ELEMENT grasaTotal (#PCDATA)>
+<!ELEMENT carbohidratos (#PCDATA)>
+<!ELEMENT azucares (#PCDATA)>
+<!ELEMENT proteinas (#PCDATA)>
+<!ATTLIST bocadillo nombre CDATA #REQUIRED>
+<!ATTLIST precio moneda CDATA #REQUIRED> 
+<!ATTLIST ingrediente nombre CDATA #REQUIRED>
+<!ATTLIST imagen srcImagen CDATA #REQUIRED>
+<!ATTLIST imagen altImagen CDATA #REQUIRED>
+<!ATTLIST porcion unidad CDATA #REQUIRED>
+<!ATTLIST calorias unidad CDATA #REQUIRED>
+<!ATTLIST colesterol unidad CDATA #REQUIRED>
+<!ATTLIST grasaTotal unidad CDATA #REQUIRED>
+<!ATTLIST carbohidratos unidad CDATA #REQUIRED>
+<!ATTLIST azucares unidad CDATA #REQUIRED>
+<!ATTLIST proteinas unidad CDATA #REQUIRED>

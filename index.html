@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "es">
+   
+<head>
+
+   <meta charset="UTF-8"/>
+   <link rel="stylesheet" type="text/css" href="estilo-login.css" >
+   <script src = "login.js"></script>
+   
+   <title> Bocadillos  </title>
+   
+
+</head>
+
+<body>
+
+   <header>
+
+       <h1>Bocadillos </h1>
+       
+   </header>
+
+   <nav class = "nav-bar">
+
+    <div class="elemento1"><a href="carta-sinregistro.html">Acceder sin registrarse</a>  </div>
+   
+
+</nav>
+
+   <div class="log">
+    <form name ="login"  class="form" action="carta.html">
+        
+       
+        <label>Usuario:</label>
+        <input  class="user" type="text" name = "usuario" required>
+  
+
+ 
+        <label class="pass" >Password:</label>
+        <input  type="password" name = "password" required >
+    
+
+        <div>
+            <button onclick="comprobar()"  class="btn-login">Iniciar Sesión</button>
+        </div>
+
+        <div class ="registrarse">
+            <a href="registrarse.html">Registrarse</a>
+        </div>
+    </form>       
+</div>
+
+
+</body>
+
+
+</html>

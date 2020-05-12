@@ -1,0 +1,331 @@
+header{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+h1 {
+
+    color: rgb(218, 142, 2);
+    text-align: center;
+    
+    font-family: "Segoe UI";
+}
+
+body{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+   
+
+}
+
+.nav-bar{
+
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:-8px;
+    background-color: rgb(238, 240, 131);
+    width: 130%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Segoe UI";
+
+    border: 3px solid rgb(255, 196, 0);
+    border-radius: 5px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    
+    
+ 
+}
+
+.elemento2{
+
+    width: 15%;
+
+    color: black;
+
+    font-size: 20px;;
+}
+.elemento4{
+
+    margin-right: 30px;
+
+    width: 12%;
+    color: black;
+
+    font-size: 20px;;
+
+}
+
+.elemento5{
+
+    width: 10%;
+    color: black;
+
+    font-size: 20px;;
+
+}
+
+.elemento6{
+
+    width: 10%;
+    color: black;
+    margin-left: 100px;
+    font-size: 20px;
+
+}
+
+.elemento1{
+
+    margin-left: 10px;
+
+    width: 15%;
+    color: black;
+
+    font-size: 20px;
+}
+
+.elemento3{
+
+    margin-right: 30px;
+    color: black;
+    width: 17%;
+
+    font-size: 20px;;
+
+}
+
+
+
+.head{
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+
+    display: flex;
+    flex-wrap : wrap;
+}
+
+.carrito{
+
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(238, 240, 131) ;
+   
+    font-family: "Segoe UI";
+    text-align: center;
+    font-size: x-large;
+
+    margin-top : -60px;
+    margin-left : 1150px;
+   
+    
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: 3px solid rgb(255, 196, 0);
+    border-radius: 5px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+     padding: 10px;
+ 
+    width: 20.95%;
+    height: 550px;
+
+}
+
+.textoCarrito{
+
+    background-color: rgb(239, 240, 190) ;
+
+    height: 400px;
+    width: 320px;
+
+    border: 1px solid rgb(239, 240, 190) ;
+    border-radius: 5px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    
+    overflow: scroll;
+
+}
+
+
+
+a{
+
+    color:#100;
+    text-decoration: none;
+  
+}
+
+a:hover {
+    
+    
+    color:rgb(243, 179, 3);
+}
+
+.bocadillo{
+    
+    margin-top : 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+.isalsas{
+
+    margin-left: 500px;
+    margin-top: -50px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.tsalsas{
+    margin-top: -90px;
+    margin-left: 500px;
+}
+.ipanes{
+
+    margin-left: 500px;
+    margin-top: -290px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.tpan{
+    margin-left: 180px;
+    margin-top:-30px;
+
+}
+
+.combobox{
+
+    background-color: rgb(239, 240, 190);;
+    border:none;
+    width: 300px;
+    height: 30px;
+    font-family: "Segoe UI";
+    
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
+
+.iprincipales{
+
+    display: flex;
+    flex-wrap :wrap;
+
+    width: 30%;
+}
+
+
+.ingredientes{
+
+    display: flex;
+    flex-wrap:wrap;
+
+   
+}
+
+.ingrediente{
+
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 30px;
+    
+    margin-bottom: 30px;
+  
+}
+
+h3{
+    color:rgb(243, 179, 3);
+    font-family: "Segoe UI";
+}
+
+h2{
+    color:rgb(243, 179, 3);
+    margin-left: 400px;
+  
+    font-size: 30px;
+}
+
+.ilabel{
+
+    width: 110px;
+    font-family: "Segoe UI";
+}
+
+label{
+
+    width: 100px;
+    font-family: "Segoe UI";
+}
+
+.crearbocadillos{
+    
+    margin-top: -500px;
+    margin-left: 100px;
+    width: 75%;
+}
+    
+#btn-crear{
+    margin-left: 20px;
+margin-top:20px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(255, 196, 0);
+    border: 4px solid rgb(255, 196, 0) ;
+    border-radius: 1px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+
+.btn-hacerPedido{
+
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    border: 4px solid rgb(255, 196, 0) ;
+    border-radius: 5px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    
+}
+
+.btn-borrar{
+
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    border: 4px solid rgb(255, 196, 0) ;
+    border-radius: 5px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+
+}
+.botones{
+
+    display:flex;
+    flex-direction: row;
+}

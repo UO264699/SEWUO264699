@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bocadillos SYSTEM "bocadillo.dtd">
+<bocadillos>
+
+
+
+<bocadillo nombre = "Crujiente de pollo y bacon" >
+
+<imagen  src = "multimedia/crujientedepolloybacon.jpg" alt="Crujiente de pollo y bacon"></imagen>             
+
+<precio moneda = "€">  </precio>
+
+<ingrediente nombre= "Pan provenzal"/>
+<ingrediente nombre= "Mayoneso"/>
+<ingrediente nombre= "Salsa BBQ"/>
+<ingrediente nombre= "Lechuga"/>
+<ingrediente nombre= "Tomate"/>
+<ingrediente nombre= "Crujiente de pollo"/>
+<ingrediente nombre= "Bacon"/>
+<ingrediente nombre= "Cebolla crujiente"/>
+
+<descripcion>
+
+Os presentamos el bocadillo más crujiente de todos: 
+crujiente de pollo, cebolla crujiente, bacon, lechuga, 
+tomate, salsa bbq y mayonesa. 
+
+</descripcion>
+
+<nutricion>
+
+<porcion unidad = "g">284</porcion>
+<calorias unidad = "calorias">540</calorias>
+<colesterol unidad = "mg">100</colesterol>
+<grasaTotal unidad = "g">26</grasaTotal>
+<carbohidratos unidad = "g">41</carbohidratos>
+<azucares unidad = "g">5</azucares>
+<proteinas unidad = "g">36</proteinas>
+
+</nutricion>
+
+
+</bocadillo>
+
+
+
+<bocadillo nombre = "Bretón" >
+
+<imagen  src = "multimedia/breton.jpg" alt="Breton"></imagen>    
+
+<precio moneda = "€">  </precio>
+
+<ingrediente nombre= "Pan provenzal"/>
+<ingrediente nombre= "Lomo adobado"/>
+<ingrediente nombre= "Bacon"/>
+<ingrediente nombre= "Queso"/>
+
+<descripcion>
+
+El bacon y el queso eran una mezcla insuperable. 
+O eso pensábamos hasta que le añadimos el lomo adobado… 
+¡esto sí que es un “homenaje a trois”!
+
+</descripcion>
+
+<nutricion>
+
+<porcion unidad = "g">264</porcion>
+<calorias unidad = "calorias">610</calorias>
+<colesterol unidad = "mg">120</colesterol>
+<grasaTotal unidad = "g">28</grasaTotal>
+<carbohidratos unidad = "g">41</carbohidratos>
+<azucares unidad = "g">43</azucares>
+<proteinas unidad = "g">54</proteinas>
+
+</nutricion>
+
+
+</bocadillo>
+
+
+
+
+
+
+<bocadillo nombre = "Vegetal de atún" >
+
+<imagen  src = "multimedia/vegetaldeatun.jpg" alt="Vegetal de Atún"></imagen>
+
+<precio moneda = "€">  </precio>
+
+
+
+<ingrediente nombre= "Pan semillado"/>
+<ingrediente nombre= "Mostaza"/>
+<ingrediente nombre= "Lechuga"/>
+<ingrediente nombre= "Tomate"/>
+<ingrediente nombre= "Huevo duro"/>
+<ingrediente nombre= "Atún"/>
+<ingrediente nombre= "Salsa amostazada"/>
+
+<descripcion>
+
+Hoy te has levantado con ganas de vegetal pero con algo más. 
+Pues te lo vamos a dar: pan semillado, mostaza, lechuga, 
+tomate, huevo duro y ese algo más que lo hace especial, atún.
+
+</descripcion>
+
+<nutricion>
+
+<porcion unidad = "g">223</porcion>
+<calorias unidad = "calorias">450</calorias>
+<colesterol unidad = "mg">40</colesterol>
+<grasaTotal unidad = "g">25</grasaTotal>
+<carbohidratos unidad = "g">38</carbohidratos>
+<azucares unidad = "g">5.5</azucares>
+<proteinas unidad = "g">19</proteinas>
+
+</nutricion>
+
+
+</bocadillo>
+
+
+
+
+
+<bocadillo nombre = "Ibérico" >
+
+<imagen  src = "multimedia/iberico.jpg" alt="Ibérico"></imagen>
+
+<precio moneda = "€">  </precio>
+
+<ingrediente nombre= "Pan de cristal"/>
+<ingrediente nombre= "Tomate"/>
+<ingrediente nombre= "Aceite de oliva"/>
+<ingrediente nombre= "Jamón Ibérico"/>
+
+
+<descripcion>
+
+¡Donde esté un buen ibérico, que se quite lo demás! 
+Hablamos del jamón,por supuesto acompañado de pan Cristal 
+y aceite de oliva, hasta le pedimos matrimonio.
+
+</descripcion>
+
+<nutricion>
+
+<porcion unidad = "g">255</porcion>
+<calorias unidad = "calorias">467</calorias>
+<colesterol unidad = "mg">43</colesterol>
+<grasaTotal unidad = "g">22</grasaTotal>
+<carbohidratos unidad = "g">43</carbohidratos>
+<azucares unidad = "g">2.4</azucares>
+<proteinas unidad = "g">19</proteinas>
+
+</nutricion>
+
+
+</bocadillo>
+
+
+
+
+
+
+
+
+
+<bocadillo nombre = "Pollo Supreme " >
+
+<imagen  src = "multimedia/pollosupreme.jpg" alt="Pollo Supreme"></imagen>
+
+<precio moneda = "€">  </precio>
+
+
+
+<ingrediente nombre= "Pan gran reserva"/>
+<ingrediente nombre= "Pollo plancha"/>
+<ingrediente nombre= "Bacon"/>
+<ingrediente nombre= "Pimiento rojo"/>
+<ingrediente nombre= "Pimiento amarillo"/>
+<ingrediente nombre= "Mayonesa"/>
+<ingrediente nombre= "Salsa amostazada"/>
+
+
+<descripcion>
+
+No sabemos si este pollo a la plancha es el más popular, 
+pero sin duda es el que más amigos tiene. 
+La receta podría variar según el restaurante.
+
+</descripcion>
+
+<nutricion>
+
+<porcion unidad = "g">263</porcion>
+<calorias unidad = "calorias">527</calorias>
+<colesterol unidad = "mg">48</colesterol>
+<grasaTotal unidad = "g">27</grasaTotal>
+<carbohidratos unidad = "g">43</carbohidratos>
+<azucares unidad = "g">4</azucares>
+<proteinas unidad = "g">25</proteinas>
+
+</nutricion>
+
+
+</bocadillo>
+
+
+
+</bocadillos>

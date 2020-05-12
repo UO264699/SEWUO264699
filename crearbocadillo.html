@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+ <html lang = "es">
+    
+ <head>
+
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo-crearbocadillo.css" >
+    <title> Bocadillos  </title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src= "carrito.js"></script>
+    <script src= "crearbocadillos.js"></script>
+
+ </head>
+
+ <body>
+    <div class = "head"> 
+    <header>
+        <h1>Bocadillos </h1>
+    </header>
+
+    
+    <nav class = "nav-bar">
+
+        <div class="elemento1"><a href="carta.html">Ver Bocadillos</a>  </div>
+        <div class="elemento2"><a href="crearbocadillos.html"> Crear Bocadillos</a> </div>
+        <div class="elemento3"><a href="misbocadillos.html"> Mis Bocadillos</a> </div>
+        <div class="elemento4"><a href="peliculas.html">Ver Películas</a> </div>
+        <div class="elemento5"> <a href="mapa.html">Ver Mapa</a></div>
+        <div class="elemento6"> <a href="index.html">Desconectarse</a></div>
+    </nav>
+</div>
+
+    <div class = "container">
+        
+
+        <div class = "carrito">
+
+            <p>  Carrito </p>
+      
+          <div id='textoCarrito' class="textoCarrito"> 
+      
+          </div>
+      
+          <div class = "botones">
+            <button class = btn-hacerPedido onclick= carrito.hacerPedido()>  Hacer Pedido  </button>
+            <button class = btn-borrar onclick= carrito.borrarCarrito()>  Borrar  </button>
+            </div>
+          </div>
+    <div id ='crearbocadillos' class ='crearbocadillos'>
+        <h2>Crea tu bocadillo</h2>
+     <form name="bocadillo" >
+
+        <h3>Ingredientes</h3>
+
+        <div class = "ingredientes" id = "ingredientes">
+
+           
+
+            <div class = "iprincipales" id = "iprincipales">
+
+                <div class = "ingrediente">
+                <input type="checkbox" id="pollo" name="pollo" value="Pollo">
+                <label class = "ilabel" for="pollo"> Pollo</label><br>
+            </div>
+            <div class = "ingrediente">
+                <input type="checkbox" id="queso" name="queso" value="Queso">
+                <label class = "ilabel" for="queso"> Queso</label><br>
+            </div>
+            <div class = "ingrediente">
+                <input type="checkbox" id="pimiento" name="pimiento" value="Pimiento">
+                <label class = "ilabel" for="pimiento">Pimiento</label><br>
+        </div>
+                <div class = "ingrediente">
+
+                <input type="checkbox" id="bacon" name="bacon" value="Bacon">
+                <label class = "ilabel" for="bacon"> Bacon</label><br>
+            </div>
+            <div class = "ingrediente">
+                <input type="checkbox" id="atun" name="atun" value="Atún">
+                <label class = "ilabel" for="atun"> Atún</label><br>
+            </div>
+            <div class = "ingrediente">
+                <input type="checkbox" id="jamon" name="jamon" value="Jamón Ibérico">
+                <label class = "ilabel" for="jamon"> Jamón Ibérico</label><br>
+            </div>
+                <div class = "ingrediente">
+                <input type="checkbox" id="lomo" name="lomo" value="Lomo Adobado">
+                <label class = "ilabel" for="lomo"> Lomo adobado </label><br>
+            </div>
+                <div class = "ingrediente">
+                <input type="checkbox" id="huevo" name="huevo" value="Huevo">
+                <label class = "ilabel" for="huevo"> Huevo</label><br>
+            </div>
+                <div class = "ingrediente">
+                <input type="checkbox" id="lechuga" name="lechuga" value="Lechuga">
+                <label class = "ilabel" for="lechuga"> Lechuga</label><br>
+            </div>
+                <div class = "ingrediente">
+                <input type="checkbox" id="tomate" name="tomate" value="Tomate">
+                <label class = "ilabel" for="tomate"> Tomate</label><br>
+            </div>
+                <div class = "ingrediente">
+                <input type="checkbox" id="cebolla" name="cebolla" value="Cebolla">
+                <label class = "ilabel" for="cebolla"> Cebolla</label><br>
+            </div>
+
+            <div class = "ingrediente">
+                <input type="checkbox" id="aceite" name="aceite" value="Aceite de Oliva">
+                <label class = "ilabel" for="aceite">Aceite de Oliva</label><br>
+            </div>
+
+        </div>
+
+        <h3 class="tpan">Pan </h3>
+        <div class="ipanes" id = "ipanes">
+           
+            <input class="combobox" id="pan" type=text list=panes name="pan" placeholder="Pan">
+            <datalist class = "panes" id="panes" >
+               <option> Pan provenzal
+               <option> Pan gran reserva
+                <option> Pan de cristal
+                    <option> Pan semillado
+            </datalist>
+           
+
+        </div>
+
+        <h3 class = "tsalsas"> Salsas </h3>
+        <div class = isalsas id = "isalsas">
+
+               
+                <div class = "ingrediente">
+                <input type="checkbox" id="mayonesa" name="mayonesa" value="Mayonesa">
+                <label for="mayonesa"> Mayonesa</label><br>
+            </div>
+                <div class = "ingrediente">
+                <input type="checkbox" id="mostaza" name="mostaza" value="Mostaza">
+                <label for="mostaza"> Mostaza</label><br>
+            </div>
+                <div class = "ingrediente">
+                <input type="checkbox" id="bbq" name="bbq" value="Salsa BBQ">
+                <label for="bbq">Salsa BBQ</label><br>
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+
+        <button id="btn-crear" onclick="cbocadillo.crearBocadillo()"> Crear Bocadillo </button>
+
+     </form>
+
+    
+     
+     
+    </div>
+
+
+  
+</div>
+
+
+ </body>
+
+
+
+
+
+ </html>

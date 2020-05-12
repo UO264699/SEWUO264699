@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+ <head>
+
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo-mapa.css" >
+    <meta name="viewport" content="width=device-width">
+    <script src ="mapa.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC4SS6AJ2PXlZmvPqAsLlMx8i3ys3qsk4&callback=initMap"></script>
+    <script src = "carrito.js"></script>
+   
+    <title>Bocadillos </title>
+
+
+ </head>
+
+ <body>
+
+    <div class = "head">
+
+    <header>
+        <h1>Bocadillos </h1>
+    </header>
+
+    <nav class = "nav-bar">
+
+        <div class="elemento1"><a href="carta.html">Ver Bocadillos</a>  </div>
+        <div class="elemento2"><a href="crearbocadillos.html"> Crear Bocadillos</a> </div>
+        <div class="elemento3"><a href="misbocadillos.html"> Mis Bocadillos</a> </div>
+        <div class="elemento4"><a href="peliculas.html">Ver Películas</a> </div>
+        <div class="elemento5"> <a href="mapa.html">Ver Mapa</a></div>
+        <div class="elemento6"> <a href="index.html">Desconectarse</a></div>
+    </nav>
+
+
+
+</div>
+
+<div class = "container">
+
+    <h2>Indica dónde quieres recibir tu pedido: </h2>
+
+
+
+    <div class = "carrito">
+
+      <p>  Carrito </p>
+
+    <div id="textoCarrito"> 
+
+
+    </div>
+
+
+    <div class = "botones">
+        <button class = btn-hacerPedido onclick= carrito.borrarCarrito()>  Hacer Pedido  </button>
+        <button class = btn-borrar onclick= carrito.borrarCarrito()>  Borrar  </button>
+        </div>
+
+    </div>
+    <div id='mapa'>
+
+    </div>
+</div>
+ </body>
+
+ </html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "es">
+   
+<head>
+
+   <meta charset="UTF-8"/>
+   <link rel="stylesheet" type="text/css" href="estilo-registrarse.css" >
+   <script src="login.js"></script>
+   <title> Bocadillos  </title>
+   
+
+</head>
+
+<body>
+
+   <header>
+       <h1>Bocadillos </h1>
+   </header>
+
+   <nav class = "nav-bar">
+
+    <div class="elemento1"><a href="index.html">Volver</a>  </div>
+   
+
+</nav>
+
+   <div class="log">
+    <h2>Regístrate</h2>
+    
+    <form name="registro" class="form" >
+        <div class="name">
+        <label>Nombre:</label>
+        <input name="nombre" type="text" required>
+    </div>
+        <div  class="apellido">
+            <label>Apellido:</label>
+            <input name="apellido" type="text" required>
+        </div>
+       
+        <div class="user">
+        <label>Usuario:</label>
+        <input name="usuario" type="text" required>
+    </div>
+        <div class="pass">
+        <label>Password:</label>
+        <input name = "password" type="password" required>
+    </div>
+        <div class="rpass">
+        <label>Repita el password:</label>
+        <input name="rpassword"  type="password" required>
+    </div>
+
+        <div id="lower">
+            <button onclick="registrar()" type ="submit" class="btn-login">Registrarse</button>
+        </div>
+
+    </form>       
+</div>
+
+
+</body>
+
+
+</html>
