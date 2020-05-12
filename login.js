@@ -3,7 +3,7 @@
  function comprobar(){
 
     sessionStorage.clear();
-    localStorage.clear();
+    
 
     if(localStorage.getItem("usuario")){
  
