@@ -7,7 +7,7 @@ function initMap(){
 
     // generamos el mapa
     var mapa = new google.maps.Map(document.getElementById('mapa'), {
-        zoom: 160,
+        zoom: 70,
         center: latlng,
         
     });
