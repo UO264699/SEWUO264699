@@ -5,11 +5,9 @@ function initMap(){
     var latlng = {lat : 43.369703,lng:-5.844504};
 
 
-
-
     // generamos el mapa
     var mapa = new google.maps.Map(document.getElementById('mapa'), {
-        zoom: 14,
+        zoom: 200,
         center: latlng,
         
     });
