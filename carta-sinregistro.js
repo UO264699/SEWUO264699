@@ -23,9 +23,9 @@ cargarDatos(){
 
          var bocadillo = $(this);
          var nombreBocadillo = bocadillo.attr('nombre');
-         var srcImagen = $(this).find('imagen').attr('srcImagen').text();
+         var srcImagen = $(this).find('imagen').attr('srcImagen');
          
-         var altImagen = $(this).find('imagen').attr('altImagen').text();
+         var altImagen = $(this).find('imagen').attr('altImagen');
          var precio = bocadillo.find('precio').text();
          var moneda = bocadillo.find('precio').attr('moneda');
          var descripcion = bocadillo.find('descripcion').text();
