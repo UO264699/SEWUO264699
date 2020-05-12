@@ -23,14 +23,14 @@ cargarDatos(){
 
          var bocadillo = $(this);
          var nombreBocadillo = bocadillo.attr('nombre');
-         var srcImagen = $(this).find('imagen').attr('srcImagen');
+         var srcImagen = $(this).find('imagen').attr('srcImagen').text();
          
-         var altImagen = $(this).find('imagen').attr('altImagen');
+         var altImagen = $(this).find('imagen').attr('altImagen').text();
          var precio = bocadillo.find('precio').text();
          var moneda = bocadillo.find('precio').attr('moneda');
          var descripcion = bocadillo.find('descripcion').text();
 
-         $('#bocadillo' + cont).append("<img class=imgb src="+ srcImagen.text() + " alt="+altImagen.text() + "/>"+ "<p>");
+         $('#bocadillo' + cont).append("<img class=imgb src="+ srcImagen + " alt="+altImagen + "/>"+ "<p>");
          $('#bocadillo' + cont).append("<h2 id=nombreBocadillo" +cont + ">" + nombreBocadillo + "</h2>");
 
          $('#bocadillo' + cont).append("<div class=descripcion>" + descripcion + "</div>");
