@@ -2,7 +2,7 @@
 var geo = new Object()
 
 function initMap(){
-    var latlng = {lat : 41.375822, lng:2.177770};
+    var latlng = {lat : 43.369703,lng:-5.844504};
 
 
 
