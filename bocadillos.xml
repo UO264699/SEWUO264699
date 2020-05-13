@@ -7,7 +7,7 @@
 
 <bocadillo nombre = "Crujiente de pollo y bacon" >
 
-<imagen  srcImagen = "multimedia/crujientedepolloybacon.jpg" altImagen="Crujiente de pollo y bacon"></imagen>             
+<imagen  src = "multimedia/crujientedepolloybacon.jpg" alt="Crujiente de pollo y bacon"></imagen>             
 
 <precio moneda = "€"> 12'50 </precio>
 
@@ -47,7 +47,7 @@ tomate, salsa bbq y mayonesa.
 
 <bocadillo nombre = "Bretón" >
 
-<imagen  srcImagen = "multimedia/breton.jpg" altImagen="Breton"></imagen>    
+<imagen  src = "multimedia/breton.jpg" alt="Breton"></imagen>    
 
 <precio moneda = "€"> 10 </precio>
 
@@ -86,7 +86,7 @@ O eso pensábamos hasta que le añadimos el lomo adobado…
 
 <bocadillo nombre = "Vegetal de atún" >
 
-<imagen  srcImagen = "multimedia/vegetaldeatun.jpg" altImagen="Vegetal de Atún"></imagen>
+<imagen  src = "multimedia/vegetaldeatun.jpg" alt="Vegetal de Atún"></imagen>
 
 <precio moneda = "€"> 13'50 </precio>
 
@@ -129,7 +129,7 @@ tomate, huevo duro y ese algo más que lo hace especial, atún.
 
 <bocadillo nombre = "Ibérico" >
 
-<imagen  srcImagen = "multimedia/iberico.jpg" altImagen="Ibérico"></imagen>
+<imagen  src = "multimedia/iberico.jpg" alt="Ibérico"></imagen>
 
 <precio moneda = "€"> 12 </precio>
 
@@ -172,7 +172,7 @@ y aceite de oliva, hasta le pedimos matrimonio.
 
 <bocadillo nombre = "Pollo Supreme " >
 
-<imagen srcImagen = "multimedia/pollosupreme.jpg" altImagen="Pollo Supreme"></imagen>
+<imagen src = "multimedia/pollosupreme.jpg" alt="Pollo Supreme"></imagen>
 
 <precio moneda = "€"> 11'50 </precio>
 
