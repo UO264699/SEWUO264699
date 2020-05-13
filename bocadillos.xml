@@ -7,7 +7,7 @@
 
 <bocadillo nombre = "Crujiente de pollo y bacon" >
 
-<imagen  src = "multimedia/crujientedepolloybacon.jpg" alt="Crujiente de pollo y bacon"></imagen>             
+<imagen  src = "multimedia/crujientedepolloybacon.jpg" alt="Crujientedepolloybacon"></imagen>             
 
 <precio moneda = "€"> 12'50 </precio>
 
@@ -86,7 +86,7 @@ O eso pensábamos hasta que le añadimos el lomo adobado…
 
 <bocadillo nombre = "Vegetal de atún" >
 
-<imagen  src = "multimedia/vegetaldeatun.jpg" alt="Vegetal de Atún"></imagen>
+<imagen  src = "multimedia/vegetaldeatun.jpg" alt="VegetaldeAtún"></imagen>
 
 <precio moneda = "€"> 13'50 </precio>
 
@@ -172,7 +172,7 @@ y aceite de oliva, hasta le pedimos matrimonio.
 
 <bocadillo nombre = "Pollo Supreme " >
 
-<imagen src = "multimedia/pollosupreme.jpg" alt="Pollo Supreme"></imagen>
+<imagen src = "multimedia/pollosupreme.jpg" alt="PolloSupreme"></imagen>
 
 <precio moneda = "€"> 11'50 </precio>
 
