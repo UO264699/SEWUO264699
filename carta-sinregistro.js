@@ -38,7 +38,7 @@ cargarDatos(){
          $('#bocadillo' + cont).append("<h3> Ingredientes: </h3>");
         
 
-         $('#bocadillo' + cont).append("<ul id=ingredientes>" + cont + "</ul>");
+         $('#bocadillo' + cont).append("<ul id=ingredientes" + cont + "></ul>");
          $(this).find('ingrediente').each(function(){
               
            var ingrediente = $(this);
