@@ -30,7 +30,7 @@ cargarDatos(){
          var moneda = bocadillo.find('precio').attr('moneda');
          var descripcion = bocadillo.find('descripcion').text();
 
-        console.log(altImagen);
+      
 
          $('#bocadillo' + cont).append("<img class=imgb src="+ srcImagen + " alt="+altImagen + "/>"+ "<p>");
          $('#bocadillo' + cont).append("<h2 id=nombreBocadillo" +cont + ">" + nombreBocadillo + "</h2>");
@@ -39,7 +39,6 @@ cargarDatos(){
 
          $('#bocadillo' + cont).append("<h3> Ingredientes: </h3>");
         
-         $('#bocadillo' + cont).append("<div id = container></div>");
 
          $('#bocadillo' + cont).append("<ul id=ingredientes> </ul>");
          $(this).find('ingrediente').each(function(){
