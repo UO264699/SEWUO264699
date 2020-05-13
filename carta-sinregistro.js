@@ -38,13 +38,13 @@ cargarDatos(){
          $('#bocadillo' + cont).append("<h3> Ingredientes: </h3>");
         
 
-         $('#bocadillo' + cont).append("<ul id=ingredientes> </ul>");
+         $('#bocadillo' + cont).append("<ul id=ingredientes>" + cont + "</ul>");
          $(this).find('ingrediente').each(function(){
               
            var ingrediente = $(this);
            var nombreIngrediente = ingrediente.attr('nombre');
           
-           $('#ingredientes').append("<li>" + nombreIngrediente + "</li>");
+           $('#ingredientes'+cont).append("<li>" + nombreIngrediente + "</li>");
          })
 
          $('#bocadillo' + cont).append("<div class=boton ><button class = btnbocadillo  id=btnb" + cont+" > "+ precio + " "+ moneda + "</button></div>");
