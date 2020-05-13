@@ -30,6 +30,8 @@ cargarDatos(){
          var moneda = bocadillo.find('precio').attr('moneda');
          var descripcion = bocadillo.find('descripcion').text();
 
+        console.log(altImagen);
+
          $('#bocadillo' + cont).append("<img class=imgb src="+ srcImagen + " alt="+altImagen + "/>"+ "<p>");
          $('#bocadillo' + cont).append("<h2 id=nombreBocadillo" +cont + ">" + nombreBocadillo + "</h2>");
 
