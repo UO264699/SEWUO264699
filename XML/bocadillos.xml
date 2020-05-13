@@ -172,7 +172,7 @@ y aceite de oliva, hasta le pedimos matrimonio.
 
 <bocadillo nombre = "Pollo Supreme " >
 
-<imagen  src = "multimedia/pollosupreme.jpg" alt="PolloSupreme"></imagen>
+<imagen  src = "multimedia/pollosupreme.jpg" alt="Pollosupreme"></imagen>
 
 <precio moneda = "€">  </precio>
 
