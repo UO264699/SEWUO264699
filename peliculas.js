@@ -2,7 +2,7 @@
 class Peliculas {
     constructor(){
         
-        this.url = "https://imdb-api.com/en/API/MostPopularMovies/k_nWHZu8ea";
+        this.url = "https://imdb-api.com/es/API/MostPopularMovies/k_nWHZu8ea";
     }
 
 cargarDatos(){
