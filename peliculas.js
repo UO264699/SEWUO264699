@@ -19,7 +19,7 @@ cargarDatos(){
           for(var pelicula in peliculas.items){
 
                 i++;
-                $("#peliculas").prepend("<div class=pelicula id =pelicula" +i +"> <img  src= "+ peliculas.items[pelicula].image + " alt=pelicula"+i + " />"+ "<div id = titulo" +i + ">"+ peliculas.items[pelicula].fullTitle +"</div><button class = btnp onclick= carrito.añadirPelicula("+i+") id = btnp"+i+">Añadir</button>  </div>")
+                $("#peliculas").prepend("<div class=pelicula id =pelicula" +i +"> <img  src= "+ peliculas.items[pelicula].image + " alt=pelicula"+i + " />"+ "<div id = titulo" +i + ">"+ peliculas.items[pelicula].fullTitle +"</div><button class = btnp onclick= carrito.añadirPelicula("+i+") id = btnp"+i+">Anadir</button>  </div>")
             
           } 
 
