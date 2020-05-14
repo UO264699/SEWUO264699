@@ -33,7 +33,7 @@
     document.login.action = "index.html";
 }
 else{
-    document.login.submit();
+    document.login.action="carta.html";
 }
 }
  
