@@ -5,7 +5,7 @@ function initMap(){
     var latlng = {lat : 43.369703,lng:-5.844504};
 
 
-    // generamos el mapa
+  
     var mapa = new google.maps.Map(document.getElementById('mapa'), {
         zoom: 45,
         center: latlng,
@@ -25,7 +25,7 @@ function initMap(){
       
   function mostrarDireccion() {
         
-        document.getElementById("textoCarrito").innerHTML = "<div>" + marker.getPosition().lat()+","+ marker.getPosition().lng() + "</div>";
+        document.getElementById("textoCarrito").innerHTML = "<div>Coordenadas: " + marker.getPosition().lat()+","+ marker.getPosition().lng() + "</div>";
 
         if (marker.getAnimation() !== null) {
           marker.setAnimation(null);
