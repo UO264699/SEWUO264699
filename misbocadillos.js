@@ -37,7 +37,7 @@ class MisBocadillos {
                     }
                 }
 
-                $('#bocadillo' + cont).append("<button class = btnbocadillo onclick=carrito.añadirBocadillo("+ cont +")  id=btnb" + cont+" >"+"</button>")
+                $('#bocadillo' + cont).append("<button class = btnbocadillo onclick=carrito.añadirBocadillo("+ cont +")  id=btnb" + cont+" >Añadir"+"</button>")
                 cont--;
     
             }
