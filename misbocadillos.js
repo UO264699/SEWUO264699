@@ -22,7 +22,7 @@ class MisBocadillos {
     
                $("#bocadillos").prepend("<div class=bocadillo id =bocadillo"+cont + "></div>" );
     
-                $('#bocadillo' + cont).append("<h3> Bocadillo "+ cont +"</h3>")
+                $('#bocadillo' + cont).append("<h3 id=nombreBocadillo> Bocadillo "+ cont +"</h3>")
     
                 var ingredientes = bocadillos[i].split(',');
     
@@ -37,6 +37,7 @@ class MisBocadillos {
                     }
                 }
 
+                $('#bocadillo' + cont).append("<button class = btnbocadillo onclick=carrito.añadirBocadillo("+ cont +")  id=btnb" + cont+" >"+"</button>")
                 cont--;
     
             }
