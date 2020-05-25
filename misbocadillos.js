@@ -22,7 +22,7 @@ class MisBocadillos {
     
                $("#bocadillos").prepend("<div class=bocadillo id =bocadillo"+cont + "></div>" );
     
-                $('#bocadillo' + cont).append("<h3 id=nombreBocadillo> Bocadillo "+ cont +"</h3>")
+                $('#bocadillo' + cont).append("<h3 id=nombreBocadillo"+ cont + "> Bocadillo "+ cont +"</h3>")
     
                 var ingredientes = bocadillos[i].split(',');
     
